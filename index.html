@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Trello version 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+			<div class="navbar-header text-center">
+			  <p class="navbar-text">Trello version 2</p>
+			</div>
+		  </div>
+		</nav>
+	</header>
+	
+	<section class="container">
+		<form id="to-do-form">
+			<div class="form-group">
+				<label for="mensaje">To do</label>
+				<textarea id="mensaje" class="form-control" rows="3"></textarea>
+			</div>
+			<button type="submit" class="btn btn-success" id="agregar">Agregar</button>
+		</form>
+	</section>
+
+	<!-- recibir datos -->
+	<div class="container" id="lienzo">
+		
+	</div>
+	
+	<script src="js/app.js"></script>
+</body>
+</html>
